@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 300px;
+    min-height: 470px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 15px gray;
+}
+.frame {
+    padding: 1em;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.frame img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.frame h2, p {
+    max-width: 30ch;
+    font-family: Outfit;
+}
+.frame p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+.frame h2{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.text{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
